@@ -1,0 +1,484 @@
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ cd"C:\Users\Jobandtalent\Desktop\Lab 1"
+bash: cdC:\Users\Jobandtalent\Desktop\Lab 1: No such file or directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ cd
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ "C:\Users\Jobandtalent\Desktop\Lab 1"
+bash: C:\Users\Jobandtalent\Desktop\Lab 1: Is a directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1
+$ git clone https://github.com/DavidBayarri/lab-bash.git
+Cloning into 'lab-bash'...
+remote: Enumerating objects: 40, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 40 (delta 14), reused 10 (delta 10), pack-reused 17
+Receiving objects: 100% (40/40), 11.61 KiB | 1.29 MiB/s, done.
+Resolving deltas: 100% (14/14), done.
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1
+$ ls
+lab-bash/  test.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1
+$ ls
+lab-bash/
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ echo Hello!
+Hello!
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ mkdir new_dir
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  new_dir/  outputs/  readme.md
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ rmdir new_dir
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ cd lorem
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cp sed.txt lorem-copy
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd lorem-copy
+bash: cd: lorem-copy: Not a directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd..
+bash: cd..: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ cd ..
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 /c/Users
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ cd lorem-copy
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ^C
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ pwd
+/c/Users/Jobandtalent/Desktop/Lab 1/lab-bash
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ cd lorem
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  lorem-copy  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cp sed.txt lorem-copy
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cp -r
+
+cp: missing file operand
+Try 'cp --help' for more information.
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ c
+bash: c: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ pcp
+bash: pcp: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd -r
+bash: cd: -r: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cp -r"C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\sed.txt" "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+cp: unknown option -- C
+Try 'cp --help' for more information.
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd"C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem"
+bash: cdC:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem: No such file or directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cp -r "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\sed.txt" "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  lorem-copy  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cp -r "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\{lorem.txt, at.txt, at.txte, lorem-copy} "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+> cp"C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+> ls
+> cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+> ls
+> $ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+> ls
+>
+>
+>
+>
+> pwd
+> !!
+cp -r "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\{lorem.txt, at.txt, at.txte, lorem-copy} "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+cp"C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+ls
+cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+ls
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+ls
+
+
+
+
+pwd
+cp: cannot stat 'C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\{lorem.txt, at.txt, at.txte, lorem-copy} C:UsersJobandtalentDesktopLab': No such file or directory
+cp: cannot stat '1lab-bashlorem-copy'$'\n''cpC:UsersJobandtalentDesktopLab': No such file or directory
+cp: cannot stat '1lab-bashlorem-copy'$'\n''ls'$'\n''cd C:UsersJobandtalentDesktopLab': No such file or directory
+cp: cannot stat '1lab-bashlorem-copy'$'\n''ls'$'\n''$ cd C:UsersJobandtalentDesktopLab': No such file or directory
+cp: cannot stat '1lab-bashlorem-copy'$'\n''ls'$'\n\n\n\n\n''pwd'$'\n''cp -r C:UsersJobandtalentDesktopLab': No such file or directory
+cp: cannot stat '1lab-bashlorem{lorem.txt,': No such file or directory
+cp: cannot stat 'at.txt,': No such file or directory
+cp: cannot stat 'at.txte,': No such file or directory
+cp: cannot stat 'lorem-copy}': No such file or directory
+bash: cpC:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy: No such file or directory
+at.txt  at.txte  lorem.txt  lorem-copy  sed.txt
+dummy_file.txt  sed.txt
+bash: $: command not found
+dummy_file.txt  sed.txt
+/c/Users/Jobandtalent/Desktop/Lab 1/lab-bash/lorem-copy
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd"C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem"
+bash: cdC:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem: No such file or directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+dummy_file.txt  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd -r
+bash: cd: -r: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ cd"C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash"
+bash: cdC:\Users\Jobandtalent\Desktop\Lab 1\lab-bash: No such file or directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  lorem-copy  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  lorem-copy  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd -r"C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\at.txt" "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+bash: cd: -r: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ ls
+at.txt  at.txte  lorem.txt  lorem-copy  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cp -r "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\at.txt" "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cp -r "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\lorem.txt" "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+at.txt  dummy_file.txt  lorem.txt  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\sed.txt"
+bash: cd: C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem\sed.txt: Not a directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ pwd
+/c/Users/Jobandtalent/Desktop/Lab 1/lab-bash/lorem-copy
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ pwd
+/c/Users/Jobandtalent/Desktop/Lab 1/lab-bash/lorem
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ open sed.txt
+bash: open: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cat at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cat lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd -
+/c/Users/Jobandtalent/Desktop/Lab 1/lab-bash/lorem
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd-
+bash: cd-: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem (master)
+$ cd -
+/c/Users/Jobandtalent/Desktop/Lab 1/lab-bash/lorem-copy
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd ~
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ pwd
+/c/Users/Jobandtalent
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ head -5 sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ head -3 sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ tail -3 sed.txt
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ echo "Homo homini lupus." | sudo tee sed.txt
+bash: sudo: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ echo "Homo homini lupus." | tee sed.txt
+Homo homini lupus.
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cat sed.txt
+Homo homini lupus.
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ tail -3 sed.txt
+Homo homini lupus.
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cat
+git config user.name
+git config user.name
+
+
+
+
+
+
+
+
+
+
+cd
+cd
+cd
+cd
+cd
+cd
+pwd
+pwd
+
+
+!!
+!!!!
+!!!!
+!!!!
+!!!!!!!
+!!!!!!!
+!!
+!!
+exit
+exit
+
+[1]+  Stopped                 cat
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ config user.name
+bash: config: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ git config user.name
+David
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ git config user.email
+david.bayarri@jobandtalent.com
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ PATH
+bash: PATH: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ path
+bash: path: command not found
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ pwd
+/c/Users/Jobandtalent/Desktop/Lab 1/lab-bash/lorem-copy
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ cd "C:\Users\Jobandtalent\Desktop\Lab 1\lab-bash\lorem-copy"
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ ls
+at.txt  dummy_file.txt  lorem.txt  sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ find .txt
+find: ‘.txt’: No such file or directory
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ find . name *.txt
+.
+./.DS_Store
+./.gitkeep
+./at.txt
+./dummy_file.txt
+./lorem.txt
+./sed.txt
+find: ‘name’: No such file or directory
+at.txt
+dummy_file.txt
+lorem.txt
+sed.txt
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ git ls-files '.txt'
+
+Jobandtalent@LAPTOP-G7JK48H8 MINGW64 ~/Desktop/Lab 1/lab-bash/lorem-copy (master)
+$ git ls-files '*.txt'
+dummy_file.txt
+
+Jobandt
